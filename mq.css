@@ -1,0 +1,195 @@
+/* Tablet: 768px */
+@media only screen and (min-width: 768px) {
+    body {
+        /* background-color: aliceblue; */
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .planet {
+        height: 300px;
+
+        flex-direction: row;
+    }
+
+    .planets {
+        height: 100%;
+        width: 40%;
+    }
+
+    .detail {
+        height: 100%;
+        width: 60%;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .nav-wrapper ul {
+        display: flex;
+
+        background-color: green;
+        align-self: center;
+    }
+
+    .nav-wrapper {
+        background-color: green;
+        flex-grow: 1;
+    }
+
+    .weird {
+        display: flex;
+        margin-top: -10rem;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sh {
+        display: flex;
+    }
+
+    .hi {
+        display: none;
+    }
+    
+    .img img {
+        width: 60rem;
+    }
+
+    .project-card {
+        height: 45%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cards-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-info {
+        width: 45%;
+    }
+
+    .project-thumbnail {
+        width: 0;
+    }
+
+    .project-video {
+        display: flex;
+    }
+
+    .img12345 img {
+        width: 70%;
+    }
+
+}
+
+
+
+
+
+
+
+/* Laptop:  992px */
+@media only screen and (min-width: 992px) {
+    body {
+        /* background-color: lightblue; */
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header {
+        padding: 0 2.5rem;
+    }
+
+    .banner {
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+
+    .text {
+        flex-basis: 30%;
+        text-align: left;
+    }
+    .text h1 {
+        font-size: 7rem;
+        line-height: 8rem;
+    }
+
+    .image {
+        flex-basis: 70%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img {
+        flex-grow: 1;
+    }
+
+    .planet {
+        flex-basis: 75%;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        border-left: 2px solid;
+        padding-left: 2px;
+        margin: 5px;
+    }
+
+    .icon {
+        display: flex;
+    }
+
+    .solarsystem-wrapper {
+        height: 22.5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .planet {
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact {
+        flex-direction: row;
+    }
+
+    .img img {
+        width: 80rem;
+    }
+
+
+    .project-card {
+        height: 45%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cards-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Desktop: 1248px */
+@media only screen and (min-width: 1248px) {
+    body {
+        /* background-color: lightskyblue; */
+        width: 75%;
+        margin: 0 auto;
+    }
+
+}
